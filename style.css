@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Resetting default margin and padding */
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -31,4 +29,62 @@ body {
 img {
     display: block;
     margin: 20px auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: gold;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h2 {
+    margin-top: 30px;
+}
+
+.container h3 {
+    margin-top: 20px;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
