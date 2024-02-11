@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the h1 */
+h1 {
+    text-align: center;
+}
+
+/* Adding some style to the paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Styling the image */
+img {
+    display: block;
+    margin: 20px auto;
+}
